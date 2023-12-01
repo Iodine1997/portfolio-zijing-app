@@ -5,70 +5,25 @@ import ResearchTag from "./ResearchTag";
 import { motion, useInView } from "framer-motion";
 
 const researchData = [
-  {
+  // {
+  //   id: 1,
+  //   title: "HIGH ENTROPY NITRIDE",
+  //   description:
+  //     "The Laine group has multiple years of experience in the synthesis of polymer precursors to oxides, nitrides and carbides recently developing simple low temperature synthetic routes to metal nitrides that offers the potential to make large numbers of single source...",
+  //   image: "/imgs/research/1.png",
+  //   tag: ["All", "Current"],
+  //   linkUrl:
+  //     "https://mse.engin.umich.edu/people/talsdad/projects/high-entropy-nitride",
+  // },
+   {
     id: 1,
-    title: "HIGH ENTROPY NITRIDE",
+    title: "DOUBLE-DECKER PHENYL-SILSESQUIOXANE COPOLYMERS",
     description:
-      "The Laine group has multiple years of experience in the synthesis of polymer precursors to oxides, nitrides and carbides recently developing simple low temperature synthetic routes to metal nitrides that offers the potential to make large numbers of single source...",
+      "Our objective in this work is to bridge DD silsesquioxane cage with conjugated aromatics. In recent papers, we demonstrated that stilbene derivatives of simple DD compounds exhibit properties commensurate with the existence of a LUMO in the cage center, equivalent to LUMOs found in [RStilbeneSiO1.5]8,10,12, [RStilbeneSiO1.5]7[O1.5SiMe/nPr], [RStil-beneSiO1.5]7[O0.5SiMe3]3, [RStilbeneSiO1.5]8[O0.5SiMe3]4 and [RStilbeneSiO1.5]8[OSiMe2]2. We explore here that co-polymerization of vinyl(Me)SiO(PhSiO1.5)8OSi(Me)vinyl (vinylDDvinyl) with X-Ar-X leads to polymers with photophysics behavior indicating semiconducting properties.",
     image: "/imgs/research/1.png",
     tag: ["All", "Current"],
     linkUrl:
-      "https://mse.engin.umich.edu/people/talsdad/projects/high-entropy-nitride",
-  },
-  {
-    id: 2,
-    title:
-      "SILICA-DEPLETED RICE HULL ASH FOR HIGH-PERFORMANCE AND STABLE LI-S BATTERIES",
-    description:
-      "Unlike current lithium-ion batteries are reaching a limit of ~600 Wh/kg -1 that is insufficient for newer electric vehicles and energy storage systems, lithium-sulfur (Li-S) batteries can offer a high theoretical specific capacity (1675 mAh/g -1 ) and energy density...",
-    image: "/imgs/research/2.png",
-    tag: ["All", "Current"],
-    linkUrl:
-      "https://mse.engin.umich.edu/people/talsdad/projects/silica-depleted-rice-hull-ash-for-high-performance-and-stable-li-s-batteries",
-  },
-  {
-    id: 3,
-    title:
-      "UPCYCLING/VALORIZING A PLENTIFUL AGRICULTURAL WASTE RICE HULL ASH (RHA)",
-    description:
-      "Global warming provides intense motivation to find ways to supplant commercial-scale CO2 generating processes to offset envisioned catastrophic effects on the environment. Coincidentally, efforts are ongoing to replace fossil fuels, especially coal, with solar, wind and wave sources of energy....",
-    image: "/imgs/research/3.png",
-    tag: ["All", "Current"],
-    linkUrl:
-      "https://mse.engin.umich.edu/people/talsdad/projects/upcycling-valorizing-a-plentiful-agricultural-waste-rice-hull-ash-rha",
-  },
-  {
-    id: 4,
-    title:
-      "INVESTIGATION OF MIXED-METAL OXIDES AND OXYNITRIDE INTERFACES FOR IMPROVED PHOTOCATALYSIS",
-    description:
-      "Recent efforts involve nitriding metal oxide and mixed-metal oxide nanopowders using a fluidized bed reactor (FBR) at temperatures of 600-1000 °C under NH 3 flow. The nanopowders were produced by Liquid-Feed Flame Spray Pyrolysis (LF-FSP). Reaction conditions in the FBR...",
-    image: "/imgs/research/4.png",
-    tag: ["All", "Past"],
-    linkUrl:
-      "https://mse.engin.umich.edu/people/talsdad/projects/investigation-of-mixed-metal-oxides-and-oxynitride-interfaces-for-improved-photocatalysis",
-  },
-  {
-    id: 5,
-    title:
-      "THERMOPLASTIC EXTRUSION OF CERAMIC PREFORMS FOR TRANSPARENT LASING MEDIA",
-    description:
-      "Thermoplastic/nanopowder extrusion techniques developed in the Laine group for production of transparent ceramics are ideal for creating near net-shape ceramic monoliths. Extrusion pro-vides low-cost polycrystalline preforms that can then be drawn to single-crystal fiber lasers through laser-heated pedestal growth (LHPG)...",
-    image: "/imgs/research/5.png",
-    tag: ["All", "Past"],
-    linkUrl:
-      "https://mse.engin.umich.edu/people/talsdad/projects/thermoplastic-extrusion-of-ceramic-preforms-for-transparent-lasing-media",
-  },
-  {
-    id: 6,
-    title:
-      "SYNTHESIS OF HIGH SURFACE AREA SILSESQUIOXANE (SQ) GELS TOWARD LOW K DIELECTRIC FILMS",
-    description:
-      "Energy storage and catalysis is of great importance to solving our energy problems of today and in the future. Silsesquioxanes (SQs) as nanostructured materials have a wide range of potential applications including low-k dielectrics, drug delivery, hydrogen storage, and catalyst...",
-    image: "/imgs/research/6.png",
-    tag: ["All", "Past"],
-    linkUrl:
-      "https://mse.engin.umich.edu/people/talsdad/projects/synthesis-of-high-surface-area-silsesquioxane-sq-gels-toward-low-k-dielectric-films",
+      "https://mse.engin.umich.edu/people/talsdad/projects/advanced-silesquioxane-research-program",
   },
 ];
 
