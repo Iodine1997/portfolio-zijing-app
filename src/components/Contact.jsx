@@ -13,14 +13,14 @@ const Contact = () => {
           </p>
           <div className="socials flex flex-row gap-2">
             <Link
-              href="https://www.instagram.com"
+              href="https://www.researchgate.net/profile/Zijing-Zhang-6"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <Image src={"/svgs/instagram2.svg"} alt="Instagram Icon" />
+              <Image src={"/svgs/researchGate.png"} alt="Researcg Gate Icon" />
             </Link>
             <Link
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/zijing-z"
               rel="noopener noreferrer"
               target="_blank"
             >
